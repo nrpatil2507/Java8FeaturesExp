@@ -83,6 +83,7 @@ public class StreamExample2 {
 						.summaryStatistics();
 				System.out.println(summary);
 				
+				//list paths of current directory
 				Files.list(Paths.get("."))
 			    .forEach(System.out::println);
 
